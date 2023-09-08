@@ -1,23 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/fragment_forecast"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
 
     <LinearLayout
-        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="150dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="12dp"
         android:background="#dfdffe"
         android:orientation="vertical"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        >
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -29,7 +22,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="mon"
+                android:text="@string/monday"
                 android:textAlignment="center"></TextView>
 
             <ImageView
@@ -53,7 +46,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="0px"
                     android:layout_weight="1"
-                    android:text="Partly Cloudy"
+                    android:text="@string/partly_cloudy"
                     android:textColor="#000000">
 
                 </TextView>
@@ -79,7 +72,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="tue"
+                android:text="@string/tuesday"
                 android:textAlignment="center"></TextView>
 
             <ImageView
@@ -103,7 +96,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="0px"
                     android:layout_weight="1"
-                    android:text="Showers"
+                    android:text="@string/showers"
                     android:textColor="#000000">
 
                 </TextView>
@@ -131,7 +124,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="wed"
+                android:text="@string/wednesday"
                 android:textAlignment="center"></TextView>
 
             <ImageView
@@ -155,7 +148,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="0px"
                     android:layout_weight="1"
-                    android:text="Rain"
+                    android:text="@string/rain"
                     android:textColor="#000000">
 
                 </TextView>
@@ -183,7 +176,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="thu"
+                android:text="@string/tuesday"
                 android:textAlignment="center"></TextView>
 
             <ImageView
@@ -207,7 +200,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="0px"
                     android:layout_weight="1"
-                    android:text="Scattered Showers"
+                    android:text="@string/scattered_showers"
                     android:textColor="#000000">
 
                 </TextView>
@@ -234,7 +227,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="fri"
+                android:text="@string/thursday"
                 android:textAlignment="center"></TextView>
 
             <ImageView
@@ -258,7 +251,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="0px"
                     android:layout_weight="1"
-                    android:text="Mostly Cloudy"
+                    android:text="@string/mostly_cloudy"
                     android:textColor="#000000">
 
                 </TextView>
@@ -284,7 +277,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="sat"
+                android:text="@string/saturday"
                 android:textAlignment="center"></TextView>
 
             <ImageView
@@ -308,7 +301,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="0px"
                     android:layout_weight="1"
-                    android:text="Partly Cloudy"
+                    android:text="@string/partly_cloudy"
                     android:textColor="#000000">
 
                 </TextView>
@@ -334,7 +327,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="sun"
+                android:text="@string/sunday"
                 android:textAlignment="center"></TextView>
 
             <ImageView
@@ -358,7 +351,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="0px"
                     android:layout_weight="1"
-                    android:text="Thunderstorms"
+                    android:text="@string/thunderstorms"
                     android:textColor="#000000">
 
                 </TextView>
@@ -375,4 +368,4 @@
     </LinearLayout>
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
