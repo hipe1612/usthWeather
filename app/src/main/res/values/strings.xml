@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">USTH Weather</string>
+    <string name="hanoi">Hanoi,VietNam</string>
+    <string name="paris">Paris,France</string>
+    <string name="toulouse">Toulouse,France</string>
+
+    <string name="monday">Mon</string>
+    <string name="tuesday">Tue</string>
+    <string name="wednesday">Wed</string>
+    <string name="thursday">Thu</string>
+    <string name="friday">Fri</string>
+    <string name="saturday">Sat</string>
+    <string name="sunday">Sun</string>
+
+    <string name="cloudy">Cloudy</string>
+    <string name="partly_cloudy">Partly Cloudy</string>
+    <string name="showers">Showers</string>
+    <string name="rain">Rain</string>
+    <string name="scattered_showers">Scattered Showers</string>
+    <string name="mostly_cloudy">Mostly Cloudy</string>
+    <string name="thunderstorms">Thunderstorms</string>
+    <string name="scattered_thunderstorms">Scattered Thunderstorms</string>
+
+    <string name="language">Language</string>
+    <string name="vietnamese" translatable="false">Tiếng Việt</string>
+    <string name="english" translatable="false">English</string>
+
 </resources>
