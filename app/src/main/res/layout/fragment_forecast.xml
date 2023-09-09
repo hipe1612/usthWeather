@@ -8,7 +8,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#dfdffe"
+        android:background="@color/white"
         android:orientation="vertical"
         >
 
@@ -80,7 +80,7 @@
                 android:layout_height="70dp"
                 android:layout_gravity="center"
                 android:layout_weight="2"
-                android:src="@drawable/rain">
+                android:src="@drawable/rain_sun">
 
             </ImageView>
 
@@ -132,7 +132,7 @@
                 android:layout_height="70dp"
                 android:layout_gravity="center"
                 android:layout_weight="2"
-                android:src="@drawable/rain">
+                android:src="@drawable/rain_sun">
 
             </ImageView>
 
@@ -235,7 +235,7 @@
                 android:layout_height="70dp"
                 android:layout_gravity="center"
                 android:layout_weight="2"
-                android:src="@drawable/partly_cloudy">
+                android:src="@drawable/cloudy">
 
             </ImageView>
 
@@ -335,7 +335,7 @@
                 android:layout_height="70dp"
                 android:layout_gravity="center"
                 android:layout_weight="2"
-                android:src="@drawable/storm">
+                android:src="@drawable/thunderstorms">
 
             </ImageView>
 
